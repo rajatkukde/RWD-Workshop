@@ -1,0 +1,374 @@
+/*First Desktop*/
+html{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.top-header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-bottom: 1px solid gray;
+}
+
+.logo{
+    width: 8%;
+    height: auto;
+}
+
+.menu{
+    width: 4%;
+    height: 4%;
+}
+
+/* navigation bar*/
+.nav-bar{
+    flex: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-right: 10px;
+}
+
+.nav-bar a{
+    font-size: 1.6rem;
+    text-decoration: none;
+    color: darkblue;
+    cursor: pointer;
+    padding: 15px 20px;
+    font-weight: bold;
+    background-color: lightblue;
+}
+
+/*page toggle*/
+.menu{
+    position: relative;
+    right: 0;
+}
+
+/*page section*/
+.main{
+    display: flex;
+    font-size: 1.6rem;
+    flex-direction: row;
+    flex-wrap: wrap; 
+}
+
+/*aside links*/
+.quick-links{
+    flex: 10%;
+    margin-top: 10px;
+    /*margin-right: 10px;*/
+    background-color: bisque;
+}
+
+.main-article{
+    flex: 90%;
+    margin-top: 10px;
+}
+
+.main-article p{
+    column-count: 3;
+    margin: 20px;
+    margin-bottom: 100px;
+}
+
+/*product page css*/
+.product-container{
+    flex:90%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+}
+.product{
+    box-shadow: 0 4px 8px black;
+    margin: 20px;
+}
+.product img{
+    width: 70%;
+}
+.product button{
+    width: 100%;
+    border: none;
+    background-color: cornflowerblue;
+    border: 2px solid burlywood;
+    color: white;
+    padding: 10px 10px;
+    cursor: pointer;
+}
+
+/*image page css*/
+.image-container{
+    flex:90%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+}
+
+.image{
+    box-shadow: 0 4px 8px black;
+    margin: 20px;
+}
+
+.image img{
+    width: 70%;
+}
+
+.image button{
+    width: 100%;
+    border: none;
+    background-color: cornflowerblue;
+    border: 2px solid burlywood;
+    color: white;
+    padding: 10px 10px;
+    cursor: pointer;
+}
+
+
+/*registrion form css*/
+.reg-form{
+    flex: 90%;
+    margin-top: 10px;    
+    height: 79vh;
+}
+.reg-form form{
+    margin: 75px;    
+}
+input[type=text]{
+    width: 100%;
+    padding: 10px 15px;
+    border: none;
+    border-bottom: 1px solid cornflowerblue;
+    margin: 10px;
+}
+input[type=email]{
+    width: 100%;
+    padding: 10px 15px;
+    border: none;
+    border-bottom: 1px solid cornflowerblue;
+    margin: 10px;
+}
+input[type=number]{
+    width: 100%;
+    padding: 10px 15px;
+    border: none;
+    border-bottom: 1px solid cornflowerblue;
+    margin: 10px;
+}
+input[type=password]{
+    width: 100%;
+    padding: 10px 15px;
+    border: none;
+    border-bottom: 1px solid cornflowerblue;
+    margin: 10px;
+}
+input[type=submit]{
+    background-color: green;
+    border: 2px solid black;
+    padding: 10px 20px;
+    color: white;
+    font-size: 1.5rem;
+    float: right;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+/*video page css*/
+.video-contents{
+    flex: 90%; 
+    height: 78vh;   
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+}
+
+.vid{
+    box-shadow: 0 4px 8px rgb(235, 19, 19);
+    margin: 20px;
+    width: 20%;
+    height: 20%;
+    
+}
+
+.video-contents video{
+    margin: 10px;
+    max-width: 100%;
+    height: auto;
+}
+
+.vid button{
+    width: 100%;
+    border: none;
+    background-color: cornflowerblue;
+    border: 2px solid burlywood;
+    color: white;
+    padding: 10px 10px;
+    cursor: pointer;
+}
+
+/*about us page*/
+.about-conatiner{
+    flex:90%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+}
+
+.column{
+    float: left;
+    width: 33.3%;
+    margin-bottom: 16px;
+    padding: 0 8px;
+}
+  
+.card{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin: 8px;
+}
+
+.card img{
+    width: 70%;
+    justify-content: center;
+}
+
+.about-section {
+    padding: 50px;
+    text-align: center;
+    background-color: #474e5d;
+    color: white;
+}
+  
+.container {
+    padding: 0 16px;
+}
+
+/*footer page css*/
+.main-footer{
+    font-size: 1.6rem;
+    /*margin-top: 70vh;*/
+    display: flex;
+    width: 100%;
+    background-color: lightsteelblue;
+    color:  white;
+    /* position: fixed;
+    bottom: 0; */
+}
+
+
+/*footer*/
+.main-footer div{
+    flex: 33.33%;
+    text-align: center;
+}
+
+.main-footer ul{
+    list-style-type: none;
+}
+
+.main-footer li:first-child{
+    font-weight: bold;
+    border-bottom: 1px solid white;
+}
+
+@media only screen and (min-width:0px) and (max-width:500px){
+    html{
+        font-size: 8px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    
+    .top-header{
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .logo{
+        width: 15%;
+    }
+    
+    .menu{
+        width: 5%;
+        height: 5%;
+    }
+    
+    .nav-bar{
+        flex-direction: column;
+        justify-content: flex-end;
+    }
+    
+    .menu{
+        position: fixed;
+        right: 0;
+        top: 0;
+    }
+    
+    .quick-links{
+        display: none;
+    }
+    
+    .main-article p{
+        column-count: 1;
+        line-height: 25px;
+        word-spacing: 10px;
+        margin: 20px;
+    }
+    
+    .main-footer{
+        flex-direction: column;
+    }
+}
+
+@media only screen and (min-width:501px) and (max-width:700px){
+    html{
+        font-size: 0px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, Arial, Helvetica, sans-serif;
+    }
+    
+    .top-header{
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .logo{
+        width: 15%;
+    }
+    
+    .menu{
+       display: none;
+    }
+    
+    .nav-bar{
+        flex-direction: row;
+        justify-content: flex-end;
+    }
+    
+    .menu{
+        position: fixed;
+        right: 0;
+        top: 0;
+    }
+    
+    .quick-links{
+        display: none;
+    }
+    
+    .main-article p{
+        column-count: 1;
+        line-height: 25px;
+        word-spacing: 10px;
+        margin: 20px;
+    }
+    
+    .main-footer{
+        flex-direction: column;
+    }
+}
+
+
+
